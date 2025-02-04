@@ -17,11 +17,11 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-Welcome to the Figueroa (Human-Centered) Robotics Lab @ University of Pennsylvania!
+Welcome to the Figueroa (Human-Centered) Robotics Lab!
 
-The research in our group focuses on developing the **physical and perceptual adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We seek to enable able-bodied humans to teach robots cumbersome dexterous manipulation tasks in factories and at home in the most efficient way possible *i.e., with minimal human effort*. We also investigate how robots can physically assist mobility-impaired humans in activities of daily living, such as reaching, lifting and carrying objects to targeted physical therapy exercises and rehabilitation. 
+The research in our group focuses on developing the physical and perceptual **adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We develop efficient learning algorithms that allow humans to teach robots cumbersome dexterous manipulation tasks, in factories and at home, in the most efficient way possible *i.e., with minimal human effort*. We also investigate how robots can physically assist and augment human capabilities in activities of daily living, such as reaching, lifting and carrying heavy objects to targeted physical therapy exercises and rehabilitation. 
 
-In particular, we develop tightly coupled **learning, control and estimation algorithms to achieve fluid human-robot collaborative autonomy with safety, efficiency and robustness guarantees**. This involves research at the intersection of machine learning, control theory, perception, biomechanics and psychology - combined through a physical human-robot interaction perspective.
+In particular, we seek to develop tightly coupled **learning, control and estimation algorithms to achieve fluid human-robot collaborative autonomy with safety, efficiency and robustness guarantees**. This involves research at the intersection of machine learning, control theory, perception, signal processing, biomechanics and psychology - all combined through a physical human-robot interaction lens.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
