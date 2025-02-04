@@ -19,12 +19,6 @@ layout: default
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.5}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
@@ -32,13 +26,19 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix" align="justify">{{ content }}</div>
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -62,15 +62,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
