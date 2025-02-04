@@ -1,6 +1,6 @@
 ---
-layout: home
-title: home
+layout: about
+title: about
 permalink: /
 subtitle: Levine Hall 266, 3330 Walnut Street, Philadelphia PA, 19104
 
