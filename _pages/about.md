@@ -6,7 +6,7 @@ subtitle: Levine Hall 266, 3330 Walnut Street, Philadelphia PA, 19104
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: nadia_collision.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
