@@ -17,9 +17,9 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-Welcome to the Figueroa (Human-Centered) Robotics Lab!
+Welcome to the Figueroa (Human-Centered) Robotics Lab @ University of Pennsylvania!
 
-The research in our group centers on developing the **physical and perceptual adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We seek to enable able-bodied humans to teach robots cumbersome dexterous manipulation tasks in factories and at home in the most efficient way possible *(minimal human effort)*. We also focus on mobility-impaired humans that require physical assistance in simple activities of daily living, from reaching, lifting and carrying objects to targeted physical therapy exercises and rehabilitation. 
+The research in our group focuses on developing the **physical and perceptual adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We seek to enable able-bodied humans to teach robots cumbersome dexterous manipulation tasks in factories and at home in the most efficient way possible *i.e., with minimal human effort*. We also investigate how robots can physically assist mobility-impaired humans in activities of daily living, such as reaching, lifting and carrying objects to targeted physical therapy exercises and rehabilitation. 
 
 In particular, we develop tightly coupled **learning, control and estimation algorithms to achieve fluid human-robot collaborative autonomy with safety, efficiency and robustness guarantees**. This involves research at the intersection of machine learning, control theory, perception, biomechanics and psychology - combined through a physical human-robot interaction perspective.
 
