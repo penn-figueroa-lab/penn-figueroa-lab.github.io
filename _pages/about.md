@@ -8,7 +8,7 @@ profile:
   align: right
   image: nadia_collision.jpg
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -19,7 +19,7 @@ announcements:
 
 Welcome to the Figueroa (Human-Centered) Robotics Lab!
 
-The research in our group focuses on developing the physical and perceptual **adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We develop efficient learning algorithms that allow humans to teach robots cumbersome dexterous manipulation tasks, in factories and at home, in the most efficient way possible *i.e., with minimal human effort*. We also investigate how robots can physically assist and augment human capabilities in activities of daily living, such as reaching, lifting and carrying heavy objects to targeted physical therapy exercises and rehabilitation. 
+The research in our group focuses on developing the physical and perceptual **adaptive intelligence** needed for robots to learn from and interact with humans while being able to adapt to a wide-range of capabilities and needs. We develop efficient learning algorithms that allow humans to teach robots cumbersome dexterous manipulation tasks, in factories and at home, in the most efficient way possible **i.e., with minimal human effort**. We also investigate how robots can physically assist and augment human capabilities in activities of daily living, such as reaching, lifting and carrying heavy objects to targeted physical therapy exercises and rehabilitation. 
 
 In particular, we seek to develop tightly coupled **learning, control and estimation algorithms to achieve fluid human-robot collaborative autonomy with safety, efficiency and robustness guarantees**. This involves research at the intersection of machine learning, control theory, perception, signal processing, biomechanics and psychology - all combined through a physical human-robot interaction lens.
 
